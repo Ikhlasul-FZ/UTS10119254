@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/purple_200"
+    tools:context=".Present.DetailActivity">
+
+    <TextView
+        android:id="@+id/judull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tanggal"
+        android:textSize="20dp"
+        android:layout_below="@+id/judull"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/ktegori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tgl"
+        android:text="Kategori"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/desk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Deskripsi"
+        android:textSize="20dp"
+        android:layout_below="@+id/ktegori"
+        android:textColor="@color/black"
+        />
+
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_below="@+id/desk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Kembali"
+        />
+</RelativeLayout>

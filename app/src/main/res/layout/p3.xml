@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+
+    <LinearLayout
+        android:id="@+id/menu_catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="40dp"
+            android:text="Android Studio"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/w"
+            android:layout_marginHorizontal="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:text="Android Studio adalah IDE resmi untuk pengembangan
+            aplikasi android. Android studio yang digunakan versi 2021.1.1 dan SDK android 10"
+            android:textAlignment="center"
+            android:paddingTop="30dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

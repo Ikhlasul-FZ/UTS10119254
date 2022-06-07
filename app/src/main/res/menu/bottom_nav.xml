@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_beranda"
+        android:icon="@drawable/br"
+        android:title="beranda"/>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/pr"
+        android:title="profile"/>
+
+    <item
+        android:id="@+id/menu_catatan"
+        android:icon="@drawable/cat"
+        android:title="catatan"/>
+
+</menu>

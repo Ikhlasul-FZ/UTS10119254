@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:id="@+id/profile">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".Present.CreateActivity"/>
+
+    <TextView
+        android:id="@+id/judull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"/>
+
+    <EditText
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:text="Tanggal"/>
+
+    <EditText
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/ktegori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tanggal"
+        android:text="Kategori"/>
+
+    <EditText
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tanggal"
+        android:layout_marginTop="20dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/desk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kategori"
+        android:layout_marginTop="15dp"
+        android:text="Deskripsi"/>
+
+    <EditText
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kategori"
+        android:layout_marginTop="40dp"
+        android:inputType="textLongMessage" />
+
+    <Button
+        android:id="@+id/btnsimpan"
+        android:layout_below="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Simpan"
+        />
+
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_below="@+id/btnsimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Kembali"
+        />
+
+</RelativeLayout>
